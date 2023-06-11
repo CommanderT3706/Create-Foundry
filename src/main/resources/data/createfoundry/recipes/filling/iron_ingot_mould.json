@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createfoundry:empty_ingot_mould"
+    },
+    {
+      "fluid": "createfoundry:molten_iron",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:iron_ingot_mould"
+    }
+  ]
+}

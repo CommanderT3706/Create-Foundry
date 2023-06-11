@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_iron"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_iron",
+      "amount": 100
+    },
+    {
+      "fluid": "createfoundry:molten_iron",
+      "amount": 100,
+      "chance": 0.1
+    }
+  ],
+  "heatRequirement": "superheated"
+}

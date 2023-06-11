@@ -1,21 +1,30 @@
 package com.commandert3706.createfoundry;
 
+import com.commandert3706.createfoundry.block.ModBlocks;
+import com.commandert3706.createfoundry.item.*;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.world.chunk.light.ChunkLightingView;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CreateFoundry implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
+	public static final String MOD_ID = "createfoundry";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		// Register Items
+		BrassMouldItems.registerMouldItems();
+		CarbonMouldItems.registerMouldItems();
+		CopperMouldItems.registerMouldItems();
+		DiamondMouldItems.registerMouldItems();
+		EmptyMouldItems.registerMouldItems();
+		GoldMouldItems.registerMouldItems();
+		IronMouldItems.registerMouldItems();
+		ZincMouldItems.registerMouldItems();
+		MiscItems.registerMiscItems();
 
-		LOGGER.info("Hello Fabric world!");
+		// Register Blocks
+		ModBlocks.registerModBlocks();
 	}
 }

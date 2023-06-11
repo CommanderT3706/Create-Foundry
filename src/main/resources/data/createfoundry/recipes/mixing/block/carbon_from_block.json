@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_carbon",
+      "amount": 900
+    }
+  ],
+  "heatRequirement": "superheated"
+}

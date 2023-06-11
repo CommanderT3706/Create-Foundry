@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:diamond_ores"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_diamond",
+      "amount": 500
+    },
+    {
+      "fluid": "createfoundry:molten_diamond",
+      "amount": 100,
+      "chance": 0.1
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 50
+    }
+  ],
+  "heatRequirement": "superheated"
+}

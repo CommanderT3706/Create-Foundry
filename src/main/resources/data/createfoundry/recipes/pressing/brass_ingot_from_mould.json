@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createfoundry:brass_ingot_mould"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "createfoundry:empty_ingot_mould"
+    }
+  ]
+}

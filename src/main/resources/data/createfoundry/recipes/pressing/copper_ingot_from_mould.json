@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createfoundry:copper_ingot_mould"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "createfoundry:empty_ingot_mould"
+    }
+  ]
+}

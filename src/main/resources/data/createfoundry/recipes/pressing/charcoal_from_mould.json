@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createfoundry:filled_coke_mould"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "createfoundry:empty_coke_mould"
+    }
+  ]
+}

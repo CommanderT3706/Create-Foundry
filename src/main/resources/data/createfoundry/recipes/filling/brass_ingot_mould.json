@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createfoundry:empty_ingot_mould"
+    },
+    {
+      "fluid": "createfoundry:molten_brass",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:brass_ingot_mould"
+    }
+  ]
+}

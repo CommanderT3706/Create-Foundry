@@ -14,12 +14,15 @@
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/createfoundry/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.commandert3706.createfoundry.CreateFoundry"
+    ],
+    "client": [
+      "com.commandert3706.createfoundry.CreateFoundryClient"
     ]
   },
   "mixins": [ ],
