@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "createfoundry:molten_copper",
+    "createfoundry:molten_copper_flowing",
+
+    "createfoundry:molten_iron",
+    "createfoundry:molten_iron_flowing",
+
+    "createfoundry:molten_gold",
+    "createfoundry:molten_gold_flowing",
+
+    "createfoundry:molten_carbon",
+    "createfoundry:molten_carbon_flowing",
+
+    "createfoundry:molten_diamond",
+    "createfoundry:molten_diamond_flowing",
+
+    "createfoundry:molten_zinc",
+    "createfoundry:molten_zinc_flowing",
+
+    "createfoundry:molten_brass",
+    "createfoundry:molten_brass_flowing"
+  ]
+}

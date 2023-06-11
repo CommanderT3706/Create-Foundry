@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createfoundry:diamond_gem_mould"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "createfoundry:empty_gem_mould"
+    }
+  ]
+}

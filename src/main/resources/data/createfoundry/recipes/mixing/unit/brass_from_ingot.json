@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:brass_ingot"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_brass",
+      "amount": 8100
+    }
+  ],
+  "heatRequirement": "superheated"
+}

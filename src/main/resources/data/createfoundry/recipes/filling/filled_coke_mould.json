@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createfoundry:empty_coke_mould"
+    },
+    {
+      "fluid": "createfoundry:molten_carbon",
+      "nbt": {},
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:filled_coke_mould"
+    }
+  ]
+}

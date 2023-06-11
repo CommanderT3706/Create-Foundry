@@ -1,0 +1,33 @@
+{
+  "item.createfoundry.empty_ingot_mould": "Empty Ingot Mould",
+  "item.createfoundry.empty_coke_mould": "Empty Coke Mould",
+  "item.createfoundry.empty_gem_mould": "Empty Gem Mould",
+
+  "item.createfoundry.copper_ingot_mould": "Copper Ingot Mould",
+  "item.createfoundry.iron_ingot_mould": "Iron Ingot Mould",
+  "item.createfoundry.gold_ingot_mould": "Gold Ingot Mould",
+  "item.createfoundry.zinc_ingot_mould": "Zinc Ingot Mould",
+  "item.createfoundry.brass_ingot_mould": "Brass Ingot Mould",
+
+  "item.createfoundry.filled_coke_mould": "Filled Coke Mould",
+
+  "item.createfoundry.diamond_gem_mould": "Diamond Gem Mould",
+
+  "item.createfoundry.molten_copper_bucket": "Molten Copper Bucket",
+  "item.createfoundry.molten_iron_bucket": "Molten Iron Bucket",
+  "item.createfoundry.molten_gold_bucket": "Molten Gold Bucket",
+  "item.createfoundry.molten_carbon_bucket": "Molten Carbon Bucket",
+  "item.createfoundry.molten_diamond_bucket": "Molten Diamond Bucket",
+  "item.createfoundry.molten_zinc_bucket": "Molten Zinc Bucket",
+  "item.createfoundry.molten_brass_bucket": "Molten Brass Bucket",
+
+  "block.createfoundry.molten_copper": "Molten Copper",
+  "block.createfoundry.molten_iron": "Molten Iron",
+  "block.createfoundry.molten_gold": "Molten Gold",
+  "block.createfoundry.molten_carbon": "Molten Carbon",
+  "block.createfoundry.molten_diamond": "Molten Diamond",
+  "block.createfoundry.molten_zinc": "Molten Zinc",
+  "block.createfoundry.molten_brass": "Molten Brass",
+
+  "itemGroup.createfoundry.create_foundry": "Create Foundry"
+}
