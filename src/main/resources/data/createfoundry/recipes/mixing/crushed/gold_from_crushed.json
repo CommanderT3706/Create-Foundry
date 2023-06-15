@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:crushed_gold_ore"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_gold",
+      "amount": 16200
+    }
+  ],
+  "heatRequirement": "superheated"
+}

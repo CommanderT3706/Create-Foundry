@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:sturdy_sheet"
+  },
+  "result": "createfoundry:empty_ingot_mould",
+  "count": 1
+}
