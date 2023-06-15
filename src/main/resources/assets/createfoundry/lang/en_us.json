@@ -29,5 +29,5 @@
   "fluid.createfoundry.molten_zinc": "Molten Zinc",
   "fluid.createfoundry.molten_brass": "Molten Brass",
 
-  "itemGroup.createfoundry.create_foundry": "Create Foundry"
+  "itemGroup.create_foundry": "Create Foundry"
 }

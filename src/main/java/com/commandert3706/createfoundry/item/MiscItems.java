@@ -12,9 +12,9 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class MiscItems {
     public static final Item.Properties DEFAULT_PROPERTIES =
-            new Item.Properties().tab(CreativeModeTab.TAB_MISC);
+            new Item.Properties().tab(ModCreativeModeTab.CREATE_FOUNDRY);
     public static final BucketItem.Properties BUCKET_PROPERTIES =
-            new Item.Properties().tab(CreativeModeTab.TAB_MISC);
+            new Item.Properties().tab(ModCreativeModeTab.CREATE_FOUNDRY);
 
     public static final DeferredRegister<Item> ITEMS
             = DeferredRegister.create(ForgeRegistries.ITEMS, CreateFoundry.MOD_ID);
@@ -26,4 +26,22 @@ public class MiscItems {
 
     public static final RegistryObject<Item> MOLTEN_COPPER_BUCKET = ITEMS.register("molten_copper_bucket",
             () -> new BucketItem(ModFluids.MOLTEN_COPPER_STILL, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_IRON_BUCKET = ITEMS.register("molten_iron_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_IRON_STILL, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_GOLD_BUCKET = ITEMS.register("molten_gold_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_GOLD_STILL, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_CARBON_BUCKET = ITEMS.register("molten_carbon_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_CARBON_STILL, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_DIAMOND_BUCKET = ITEMS.register("molten_diamond_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_DIAMOND_STILL, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_ZINC_BUCKET = ITEMS.register("molten_zinc_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_ZINC_STILL, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_BRASS_BUCKET = ITEMS.register("molten_brass_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_BRASS_STILL, BUCKET_PROPERTIES));
 }

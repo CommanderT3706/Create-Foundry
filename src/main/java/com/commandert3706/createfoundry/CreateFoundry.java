@@ -2,8 +2,7 @@ package com.commandert3706.createfoundry;
 
 import com.commandert3706.createfoundry.block.ModBlocks;
 import com.commandert3706.createfoundry.fluid.ModFluids;
-import com.commandert3706.createfoundry.item.EmptyMouldItems;
-import com.commandert3706.createfoundry.item.MiscItems;
+import com.commandert3706.createfoundry.item.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -32,6 +31,14 @@ public class CreateFoundry
 
         EmptyMouldItems.register(eventBus);
         MiscItems.register(eventBus);
+
+        BrassMouldItems.register(eventBus);
+        CarbonMouldItems.register(eventBus);
+        CopperMouldItems.register(eventBus);
+        DiamondMouldItems.register(eventBus);
+        GoldMouldItems.register(eventBus);
+        IronMouldItems.register(eventBus);
+        ZincMouldItems.register(eventBus);
 
         ModBlocks.register(eventBus);
 
