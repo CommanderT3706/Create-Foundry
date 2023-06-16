@@ -3,17 +3,17 @@
   "ingredients": [
     {
       "fluid": "createfoundry:molten_copper",
-      "amount": 8100
+      "amount": 100
     },
     {
       "fluid": "createfoundry:molten_zinc",
-      "amount": 8100
+      "amount": 100
     }
   ],
   "results": [
     {
       "fluid": "createfoundry:molten_brass",
-      "amount": 16200
+      "amount": 200
     }
   ],
   "heatRequirement": "superheated"

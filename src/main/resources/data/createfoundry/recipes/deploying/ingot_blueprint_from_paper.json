@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:ingots"
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:ingot_mould_blueprint"
+    }
+  ]
+}

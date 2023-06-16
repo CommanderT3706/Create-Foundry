@@ -8,7 +8,7 @@
   "results": [
     {
       "fluid": "createfoundry:molten_carbon",
-      "amount": 8100
+      "amount": 100
     }
   ],
   "heatRequirement": "superheated"

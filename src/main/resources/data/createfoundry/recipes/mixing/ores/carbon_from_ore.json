@@ -8,11 +8,11 @@
   "results": [
     {
       "fluid": "createfoundry:molten_carbon",
-      "amount": 40500
+      "amount": 500
     },
     {
       "fluid": "minecraft:lava",
-      "amount": 4050
+      "amount": 50
     }
   ],
   "heatRequirement": "superheated"

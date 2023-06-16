@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:gems"
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:gem_mould_blueprint"
+    }
+  ]
+}

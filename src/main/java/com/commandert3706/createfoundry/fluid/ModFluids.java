@@ -29,7 +29,7 @@ public class ModFluids {
 
 
     public static final RegistryObject<FlowingFluid> MOLTEN_COPPER_STILL
-            = FLUIDS.register("molten_copper_still", () -> new ForgeFlowingFluid.Source(ModFluids.COPPER_PROPERTIES));
+            = FLUIDS.register("molten_copper", () -> new ForgeFlowingFluid.Source(ModFluids.COPPER_PROPERTIES));
     public static final RegistryObject<FlowingFluid> MOLTEN_COPPER_FLOWING
             = FLUIDS.register("molten_copper_flowing", () -> new ForgeFlowingFluid.Flowing(ModFluids.COPPER_PROPERTIES));
 
@@ -45,7 +45,7 @@ public class ModFluids {
 
 
     public static final RegistryObject<FlowingFluid> MOLTEN_IRON_STILL
-            = FLUIDS.register("molten_iron_still", () -> new ForgeFlowingFluid.Source(ModFluids.IRON_PROPERTIES));
+            = FLUIDS.register("molten_iron", () -> new ForgeFlowingFluid.Source(ModFluids.IRON_PROPERTIES));
     public static final RegistryObject<FlowingFluid> MOLTEN_IRON_FLOWING
             = FLUIDS.register("molten_iron_flowing", () -> new ForgeFlowingFluid.Flowing(ModFluids.IRON_PROPERTIES));
 
@@ -61,7 +61,7 @@ public class ModFluids {
 
 
     public static final RegistryObject<FlowingFluid> MOLTEN_GOLD_STILL
-            = FLUIDS.register("molten_gold_still", () -> new ForgeFlowingFluid.Source(ModFluids.GOLD_PROPERTIES));
+            = FLUIDS.register("molten_gold", () -> new ForgeFlowingFluid.Source(ModFluids.GOLD_PROPERTIES));
     public static final RegistryObject<FlowingFluid> MOLTEN_GOLD_FLOWING
             = FLUIDS.register("molten_gold_flowing", () -> new ForgeFlowingFluid.Flowing(ModFluids.GOLD_PROPERTIES));
 
@@ -77,7 +77,7 @@ public class ModFluids {
 
 
     public static final RegistryObject<FlowingFluid> MOLTEN_CARBON_STILL
-            = FLUIDS.register("molten_carbon_still", () -> new ForgeFlowingFluid.Source(ModFluids.CARBON_PROPERTIES));
+            = FLUIDS.register("molten_carbon", () -> new ForgeFlowingFluid.Source(ModFluids.CARBON_PROPERTIES));
     public static final RegistryObject<FlowingFluid> MOLTEN_CARBON_FLOWING
             = FLUIDS.register("molten_carbon_flowing", () -> new ForgeFlowingFluid.Flowing(ModFluids.CARBON_PROPERTIES));
 
@@ -93,7 +93,7 @@ public class ModFluids {
 
 
     public static final RegistryObject<FlowingFluid> MOLTEN_DIAMOND_STILL
-            = FLUIDS.register("molten_diamond_still", () -> new ForgeFlowingFluid.Source(ModFluids.DIAMOND_PROPERTIES));
+            = FLUIDS.register("molten_diamond", () -> new ForgeFlowingFluid.Source(ModFluids.DIAMOND_PROPERTIES));
     public static final RegistryObject<FlowingFluid> MOLTEN_DIAMOND_FLOWING
             = FLUIDS.register("molten_diamond_flowing", () -> new ForgeFlowingFluid.Flowing(ModFluids.DIAMOND_PROPERTIES));
 
@@ -109,7 +109,7 @@ public class ModFluids {
 
 
     public static final RegistryObject<FlowingFluid> MOLTEN_ZINC_STILL
-            = FLUIDS.register("molten_zinc_still", () -> new ForgeFlowingFluid.Source(ModFluids.ZINC_PROPERTIES));
+            = FLUIDS.register("molten_zinc", () -> new ForgeFlowingFluid.Source(ModFluids.ZINC_PROPERTIES));
     public static final RegistryObject<FlowingFluid> MOLTEN_ZINC_FLOWING
             = FLUIDS.register("molten_zinc_flowing", () -> new ForgeFlowingFluid.Flowing(ModFluids.ZINC_PROPERTIES));
 
@@ -125,14 +125,14 @@ public class ModFluids {
 
 
     public static final RegistryObject<FlowingFluid> MOLTEN_BRASS_STILL
-            = FLUIDS.register("molten_brass_still", () -> new ForgeFlowingFluid.Source(ModFluids.BRASS_PROPERTIES));
+            = FLUIDS.register("molten_brass", () -> new ForgeFlowingFluid.Source(ModFluids.BRASS_PROPERTIES));
     public static final RegistryObject<FlowingFluid> MOLTEN_BRASS_FLOWING
             = FLUIDS.register("molten_brass_flowing", () -> new ForgeFlowingFluid.Flowing(ModFluids.BRASS_PROPERTIES));
 
     public static final ForgeFlowingFluid.Properties BRASS_PROPERTIES = new ForgeFlowingFluid.Properties(
             () -> MOLTEN_BRASS_STILL.get(), () -> MOLTEN_BRASS_FLOWING.get(), FluidAttributes.builder(WATER_STILL_RL, WATER_FLOWING_RL)
             .density(15).luminosity(7).viscosity(2).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA)
-            .overlay(WATER_OVERLAY_RL).color(0xb57300)).slopeFindDistance(2).levelDecreasePerBlock(2)
+            .overlay(WATER_OVERLAY_RL).color(0xffb57300)).slopeFindDistance(2).levelDecreasePerBlock(2)
             .block(() -> ModFluids.MOLTEN_BRASS.get()).bucket(() -> MiscItems.MOLTEN_BRASS_BUCKET.get());
 
     public static final RegistryObject<LiquidBlock> MOLTEN_BRASS = ModBlocks.BLOCKS.register("molten_brass",

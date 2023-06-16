@@ -2,17 +2,17 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:ores/zinc"
+      "tag": "forge:ores/zinc"
     }
   ],
   "results": [
     {
       "fluid": "createfoundry:molten_zinc",
-      "amount": 40500
+      "amount": 500
     },
     {
       "fluid": "minecraft:lava",
-      "amount": 4050
+      "amount": 50
     }
   ],
   "heatRequirement": "superheated"

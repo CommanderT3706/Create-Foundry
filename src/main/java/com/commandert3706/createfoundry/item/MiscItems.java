@@ -44,4 +44,12 @@ public class MiscItems {
 
     public static final RegistryObject<Item> MOLTEN_BRASS_BUCKET = ITEMS.register("molten_brass_bucket",
             () -> new BucketItem(ModFluids.MOLTEN_BRASS_STILL, BUCKET_PROPERTIES));
+
+
+    public static final RegistryObject<Item> INGOT_MOULD_BLUEPRINT = ITEMS.register("ingot_mould_blueprint",
+            () -> new Item(DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> COKE_MOULD_BLUEPRINT = ITEMS.register("coke_mould_blueprint",
+            () -> new Item(DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> GEM_MOULD_BLUEPRINT = ITEMS.register("gem_mould_blueprint",
+            () -> new Item(DEFAULT_PROPERTIES));
 }

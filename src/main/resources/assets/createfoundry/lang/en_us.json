@@ -21,6 +21,10 @@
   "item.createfoundry.molten_zinc_bucket": "Molten Zinc Bucket",
   "item.createfoundry.molten_brass_bucket": "Molten Brass Bucket",
 
+  "item.createfoundry.ingot_mould_blueprint": "Ingot Mould Blueprint",
+  "item.createfoundry.coke_mould_blueprint": "Coke Mould Blueprint",
+  "item.createfoundry.gem_mould_blueprint": "Gem Mould Blueprint",
+
   "fluid.createfoundry.molten_copper": "Molten Copper",
   "fluid.createfoundry.molten_iron": "Molten Iron",
   "fluid.createfoundry.molten_gold": "Molten Gold",

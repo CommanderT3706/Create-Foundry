@@ -55,9 +55,9 @@ Use your Create skills to build the ultimate ore processor! Melt down your ores 
     ordering="NONE"
     side="BOTH"
 
-#[[dependencies.createfoundry]]
-#    modId="create"
-#    mandatory=true
-#    versionRange="[0.5.0,)"
-#    ordering="NONE"
-#    side="BOTH"
+[[dependencies.createfoundry]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.0,)"
+    ordering="NONE"
+    side="BOTH"
