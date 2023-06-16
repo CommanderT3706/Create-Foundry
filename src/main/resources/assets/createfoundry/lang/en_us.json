@@ -33,5 +33,13 @@
   "fluid.createfoundry.molten_zinc": "Molten Zinc",
   "fluid.createfoundry.molten_brass": "Molten Brass",
 
+  "fluid_type.createfoundry.molten_copper": "Molten Copper",
+  "fluid_type.createfoundry.molten_iron": "Molten Iron",
+  "fluid_type.createfoundry.molten_gold": "Molten Gold",
+  "fluid_type.createfoundry.molten_carbon": "Molten Carbon",
+  "fluid_type.createfoundry.molten_diamond": "Molten Diamond",
+  "fluid_type.createfoundry.molten_zinc": "Molten Zinc",
+  "fluid_type.createfoundry.molten_brass": "Molten Brass",
+
   "itemGroup.create_foundry": "Create Foundry"
 }

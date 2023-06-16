@@ -1,13 +1,12 @@
 package com.commandert3706.createfoundry;
 
 import com.commandert3706.createfoundry.block.ModBlocks;
+import com.commandert3706.createfoundry.fluid.ModFluidTypes;
 import com.commandert3706.createfoundry.fluid.ModFluids;
 import com.commandert3706.createfoundry.item.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -43,6 +42,7 @@ public class CreateFoundry
         ModBlocks.register(eventBus);
 
         ModFluids.register(eventBus);
+        ModFluidTypes.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
@@ -51,9 +51,7 @@ public class CreateFoundry
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER_STILL.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER_FLOWING.get(), RenderType.translucent());
+
     }
 
     private void setup(final FMLCommonSetupEvent event) {
