@@ -51,9 +51,7 @@ public class CreateFoundry
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER_STILL.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER_FLOWING.get(), RenderType.translucent());
+
     }
 
     private void setup(final FMLCommonSetupEvent event) {

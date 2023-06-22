@@ -20,7 +20,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
-version = '1.0.0-1.18.2'
+version = '1.1.0-1.18.2'
 group = 'com.commandert3706.createfoundry' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'createfoundry'
 
