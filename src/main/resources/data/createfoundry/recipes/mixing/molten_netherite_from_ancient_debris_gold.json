@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "createfoundry:molten_ancient_debris",
+      "nbt": {},
+      "amount": 4050
+    },
+    {
+      "fluid": "createfoundry:molten_gold",
+      "nbt": {},
+      "amount": 4050
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_netherite",
+      "amount": 8100
+    }
+  ],
+  "heatRequirement": "superheated"
+}

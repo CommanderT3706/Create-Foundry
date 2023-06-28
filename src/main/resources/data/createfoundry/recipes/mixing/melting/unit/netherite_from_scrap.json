@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_ancient_debris",
+      "amount": 8100
+    }
+  ],
+  "heatRequirement": "superheated"
+}

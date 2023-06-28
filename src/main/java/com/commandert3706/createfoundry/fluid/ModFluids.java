@@ -41,6 +41,31 @@ public class ModFluids {
     public static final FlowableFluid MOLTEN_BRASS_FLOWING = registerFluid("molten_brass_flowing",
             new MoltenBrassFluid.Flowing());
 
+    public static final FlowableFluid MOLTEN_EMERALD_STILL = registerFluid("molten_emerald",
+            new MoltenEmeraldFluid.Still());
+    public static final FlowableFluid MOLTEN_EMERALD_FLOWING = registerFluid("molten_emerald_flowing",
+            new MoltenEmeraldFluid.Flowing());
+
+    public static final FlowableFluid MOLTEN_REDSTONE_STILL = registerFluid("molten_redstone",
+            new MoltenRedstoneFluid.Still());
+    public static final FlowableFluid MOLTEN_REDSTONE_FLOWING = registerFluid("molten_redstone_flowing",
+            new MoltenRedstoneFluid.Flowing());
+
+    public static final FlowableFluid MOLTEN_LAPIS_STILL = registerFluid("molten_lapis",
+            new MoltenLapisFluid.Still());
+    public static final FlowableFluid MOLTEN_LAPIS_FLOWING = registerFluid("molten_lapis_flowing",
+            new MoltenLapisFluid.Flowing());
+
+    public static final FlowableFluid MOLTEN_ANCIENT_DEBRIS_STILL = registerFluid("molten_ancient_debris",
+            new MoltenAncientDebrisFluid.Still());
+    public static final FlowableFluid MOLTEN_ANCIENT_DEBRIS_FLOWING = registerFluid("molten_ancient_debris_flowing",
+            new MoltenAncientDebrisFluid.Flowing());
+
+    public static final FlowableFluid MOLTEN_NETHERITE_STILL = registerFluid("molten_netherite",
+            new MoltenNetheriteFluid.Still());
+    public static final FlowableFluid MOLTEN_NETHERITE_FLOWING = registerFluid("molten_netherite_flowing",
+            new MoltenNetheriteFluid.Flowing());
+
     private static FlowableFluid registerFluid(String name, FlowableFluid flowableFluid) {
         return Registry.register(Registry.FLUID, new Identifier(CreateFoundry.MOD_ID, name), flowableFluid);
     }

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createfoundry:empty_ingot_mould"
+    },
+    {
+      "fluid": "createfoundry:molten_netherite",
+      "nbt": {},
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:netherite_ingot_mould"
+    }
+  ]
+}

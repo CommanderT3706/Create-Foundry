@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createfoundry:emerald_gem_mould"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "createfoundry:empty_gem_mould"
+    }
+  ]
+}

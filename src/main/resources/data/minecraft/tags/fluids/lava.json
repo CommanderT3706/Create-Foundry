@@ -20,6 +20,21 @@
     "createfoundry:molten_zinc_flowing",
 
     "createfoundry:molten_brass",
-    "createfoundry:molten_brass_flowing"
+    "createfoundry:molten_brass_flowing",
+
+    "createfoundry:molten_emerald",
+    "createfoundry:molten_emerald_flowing",
+
+    "createfoundry:molten_lapis",
+    "createfoundry:molten_lapis_flowing",
+
+    "createfoundry:molten_redstone",
+    "createfoundry:molten_redstone_flowing",
+
+    "createfoundry:molten_ancient_debris",
+    "createfoundry:molten_ancient_debris_flowing",
+
+    "createfoundry:molten_netherite",
+    "createfoundry:molten_netherite_flowing"
   ]
 }

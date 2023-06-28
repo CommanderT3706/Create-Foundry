@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    []
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_emerald",
+      "amount": 8100
+    }
+  ],
+  "heatRequirement": "superheated"
+}

@@ -1,0 +1,59 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:sturdy_sheet"
+  },
+  "transitionalItem": {
+    "item": "create:unprocessed_obsidian_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        },
+        {
+          "item": "createfoundry:ingot_mould_blueprint"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:empty_ingot_mould"
+    }
+  ],
+  "loops": 1
+}

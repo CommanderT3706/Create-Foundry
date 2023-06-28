@@ -22,6 +22,11 @@ public class CreateFoundry implements ModInitializer {
 		GoldMouldItems.registerMouldItems();
 		IronMouldItems.registerMouldItems();
 		ZincMouldItems.registerMouldItems();
+		EmeraldMouldItems.registerMouldItems();
+		LapisMouldItems.registerMouldItems();
+		RedstoneMouldItems.registerMouldItems();
+		AncientDebrisMouldItems.registerMouldItems();
+		NetheriteMouldItems.registerMouldItems();
 		MiscItems.registerMiscItems();
 
 		// Register Blocks
