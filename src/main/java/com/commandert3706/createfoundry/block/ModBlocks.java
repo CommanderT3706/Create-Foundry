@@ -60,4 +60,24 @@ public class ModBlocks {
     public static final Block MOLTEN_BRASS_FLUID_BLOCK = registerBlockWithoutBlockItem("molten_brass",
             new FluidBlock(ModFluids.MOLTEN_BRASS_STILL, FabricBlockSettings.of(Material.LAVA)
                     .noCollision().nonOpaque().dropsNothing().luminance(7)), ItemGroup.MISC);
+
+    public static final Block MOLTEN_EMERALD_FLUID_BLOCK = registerBlockWithoutBlockItem("molten_emerald",
+            new FluidBlock(ModFluids.MOLTEN_EMERALD_STILL, FabricBlockSettings.of(Material.LAVA)
+                    .noCollision().nonOpaque().dropsNothing().luminance(7)), ItemGroup.MISC);
+
+    public static final Block MOLTEN_LAPIS_FLUID_BLOCK = registerBlockWithoutBlockItem("molten_lapis",
+            new FluidBlock(ModFluids.MOLTEN_LAPIS_STILL, FabricBlockSettings.of(Material.LAVA)
+                    .noCollision().nonOpaque().dropsNothing().luminance(7)), ItemGroup.MISC);
+
+    public static final Block MOLTEN_REDSTONE_FLUID_BLOCK = registerBlockWithoutBlockItem("molten_redstone",
+            new FluidBlock(ModFluids.MOLTEN_REDSTONE_STILL, FabricBlockSettings.of(Material.LAVA)
+                    .noCollision().nonOpaque().dropsNothing().luminance(7)), ItemGroup.MISC);
+
+    public static final Block MOLTEN_ANCIENT_DEBRIS_FLUID_BLOCK = registerBlockWithoutBlockItem("molten_ancient_debris",
+            new FluidBlock(ModFluids.MOLTEN_ANCIENT_DEBRIS_STILL, FabricBlockSettings.of(Material.LAVA)
+                    .noCollision().nonOpaque().dropsNothing().luminance(7)), ItemGroup.MISC);
+
+    public static final Block MOLTEN_NETHERITE_FLUID_BLOCK = registerBlockWithoutBlockItem("molten_netherite",
+            new FluidBlock(ModFluids.MOLTEN_NETHERITE_STILL, FabricBlockSettings.of(Material.LAVA)
+                    .noCollision().nonOpaque().dropsNothing().luminance(7)), ItemGroup.MISC);
 }

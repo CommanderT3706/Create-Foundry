@@ -3,7 +3,6 @@ package com.commandert3706.createfoundry.item;
 import com.commandert3706.createfoundry.CreateFoundry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -25,6 +24,6 @@ public class EmptyMouldItems {
             new Item(DEFAULT_MOULD));
     public static final Item EMPTY_COKE_MOULD = registerItem("empty_coke_mould",
             new Item(DEFAULT_MOULD));
-    public static final Item EMPTY_DIAMOND_MOULD = registerItem("empty_gem_mould",
+    public static final Item EMPTY_GEM_MOULD = registerItem("empty_gem_mould",
             new Item(DEFAULT_MOULD));
 }

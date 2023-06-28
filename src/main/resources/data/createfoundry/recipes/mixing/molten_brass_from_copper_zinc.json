@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "createfoundry:molten_copper",
+      "nbt": {},
+      "amount": 8100
+    },
+    {
+      "fluid": "createfoundry:molten_zinc",
+      "nbt": {},
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_brass",
+      "amount": 16200
+    }
+  ],
+  "heatRequirement": "superheated"
+}

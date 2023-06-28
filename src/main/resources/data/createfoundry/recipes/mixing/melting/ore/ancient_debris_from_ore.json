@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_ancient_debris",
+      "amount": 10125
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 4050
+    }
+  ],
+  "heatRequirement": "superheated"
+}

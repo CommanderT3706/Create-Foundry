@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_gold_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_gold",
+      "amount": 145800
+    }
+  ],
+  "heatRequirement": "superheated"
+}

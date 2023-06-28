@@ -18,6 +18,9 @@
 
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "com.commandert3706.createfoundry.datagen.DataGeneration"
+    ],
     "main": [
       "com.commandert3706.createfoundry.CreateFoundry"
     ],

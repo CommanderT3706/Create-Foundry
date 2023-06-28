@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:zinc_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_zinc",
+      "amount": 72900
+    }
+  ],
+  "heatRequirement": "superheated"
+}

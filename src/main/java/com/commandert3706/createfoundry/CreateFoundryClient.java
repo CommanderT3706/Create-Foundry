@@ -70,5 +70,50 @@ public class CreateFoundryClient implements ClientModInitializer {
                 new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
                         SimpleFluidRenderHandler.WATER_FLOWING,
                         SimpleFluidRenderHandler.WATER_OVERLAY, 0xb57300));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_EMERALD_STILL,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x1ac42b));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_EMERALD_FLOWING,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x1ac42b));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_REDSTONE_STILL,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x850e0c));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_REDSTONE_FLOWING,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x850e0c));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_LAPIS_STILL,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x233bd9));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_LAPIS_FLOWING,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x233bd9));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_ANCIENT_DEBRIS_STILL,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x6e2100));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_ANCIENT_DEBRIS_FLOWING,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x6e2100));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_NETHERITE_STILL,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x424242));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.MOLTEN_NETHERITE_FLOWING,
+                new SimpleFluidRenderHandler(SimpleFluidRenderHandler.WATER_STILL,
+                        SimpleFluidRenderHandler.WATER_FLOWING,
+                        SimpleFluidRenderHandler.WATER_OVERLAY, 0x424242));
     }
 }
