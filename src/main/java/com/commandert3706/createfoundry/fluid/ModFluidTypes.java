@@ -49,6 +49,7 @@ public class ModFluidTypes {
     public static final RegistryObject<FluidType> MOLTEN_BRASS_FLUID_TYPE = register("molten_brass",
             DEFAULT_FLUID, 0xffb57300, 0xb5, 0x73, 0x00);
 
+    // FIXME :: Colors
     public static final RegistryObject<FluidType> MOLTEN_EMERALD_FLUID_TYPE = register("molten_emerald",
             DEFAULT_FLUID, 0xffb57300, 0xb5, 0x73, 0x00);
     public static final RegistryObject<FluidType> MOLTEN_REDSTONE_FLUID_TYPE = register("molten_redstone",
