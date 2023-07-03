@@ -51,4 +51,14 @@ public class ModBlocks {
             () -> new LiquidBlock(ModFluids.MOLTEN_ZINC_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
     public static final RegistryObject<LiquidBlock> MOLTEN_BRASS_BLOCK = BLOCKS.register("molten_brass",
             () -> new LiquidBlock(ModFluids.MOLTEN_BRASS_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    public static final RegistryObject<LiquidBlock> MOLTEN_EMERALD_BLOCK = BLOCKS.register("molten_emerald",
+            () -> new LiquidBlock(ModFluids.MOLTEN_EMERALD_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    public static final RegistryObject<LiquidBlock> MOLTEN_LAPIS_BLOCK = BLOCKS.register("molten_lapis",
+            () -> new LiquidBlock(ModFluids.MOLTEN_LAPIS_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    public static final RegistryObject<LiquidBlock> MOLTEN_REDSTONE_BLOCK = BLOCKS.register("molten_redstone",
+            () -> new LiquidBlock(ModFluids.MOLTEN_REDSTONE_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    public static final RegistryObject<LiquidBlock> MOLTEN_ANCIENT_DEBRIS_BLOCK = BLOCKS.register("molten_ancient_debris",
+            () -> new LiquidBlock(ModFluids.MOLTEN_ANCIENT_DEBRIS_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    public static final RegistryObject<LiquidBlock> MOLTEN_NETHERITE_BLOCK = BLOCKS.register("molten_netherite",
+            () -> new LiquidBlock(ModFluids.MOLTEN_NETHERITE_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
 }

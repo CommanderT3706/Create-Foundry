@@ -3,6 +3,7 @@
   "ingredients": [
     {
       "fluid": "createfoundry:molten_carbon",
+      "nbt": {},
       "amount": 100
     }
   ],

@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_lapis",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "superheated"
+}

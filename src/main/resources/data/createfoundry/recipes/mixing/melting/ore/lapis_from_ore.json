@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:lapis_ores"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_lapis",
+      "amount": 1500
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 50
+    }
+  ],
+  "heatRequirement": "superheated"
+}

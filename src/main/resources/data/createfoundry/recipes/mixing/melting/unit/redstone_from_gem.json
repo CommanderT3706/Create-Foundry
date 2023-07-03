@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_redstone",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "superheated"
+}

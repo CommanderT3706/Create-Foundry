@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_netherite",
+      "amount": 900
+    }
+  ],
+  "heatRequirement": "superheated"
+}
