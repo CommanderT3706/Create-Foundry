@@ -1,0 +1,18 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    [
+      {
+        "item": "createfoundry:ancient_debris_gem_mould"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "createfoundry:empty_gem_mould"
+    }
+  ]
+}
