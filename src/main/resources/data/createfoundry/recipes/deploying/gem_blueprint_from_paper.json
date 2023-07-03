@@ -5,12 +5,13 @@
       "item": "minecraft:paper"
     },
     {
-      "tag": "forge:gems"
+      "item": "minecraft:diamond"
     }
   ],
   "results": [
     {
       "item": "createfoundry:gem_mould_blueprint"
     }
-  ]
+  ],
+  "keepHeldItem": true
 }

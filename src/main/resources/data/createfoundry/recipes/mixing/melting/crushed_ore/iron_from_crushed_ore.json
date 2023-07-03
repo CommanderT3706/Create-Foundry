@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    []
+  ],
+  "results": [
+    {
+      "fluid": "createfoundry:molten_iron",
+      "amount": 200
+    }
+  ],
+  "heatRequirement": "superheated"
+}

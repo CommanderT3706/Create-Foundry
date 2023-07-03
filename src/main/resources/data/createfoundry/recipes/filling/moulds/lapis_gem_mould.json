@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createfoundry:empty_gem_mould"
+    },
+    {
+      "fluid": "createfoundry:molten_lapis",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:lapis_gem_mould"
+    }
+  ]
+}

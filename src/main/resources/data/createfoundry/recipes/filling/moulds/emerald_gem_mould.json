@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createfoundry:empty_gem_mould"
+    },
+    {
+      "fluid": "createfoundry:molten_emerald",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "createfoundry:emerald_gem_mould"
+    }
+  ]
+}

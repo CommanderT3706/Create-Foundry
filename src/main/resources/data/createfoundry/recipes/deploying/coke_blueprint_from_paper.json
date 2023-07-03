@@ -12,5 +12,6 @@
     {
       "item": "createfoundry:coke_mould_blueprint"
     }
-  ]
+  ],
+  "keepHeldItem": true
 }

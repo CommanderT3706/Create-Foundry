@@ -78,6 +78,51 @@ public class ModFluids {
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_BRASS_BLOCK)
             .bucket(MiscItems.MOLTEN_BRASS_BUCKET);
 
+    public static final RegistryObject<FlowingFluid> MOLTEN_EMERALD_SOURCE = FLUIDS.register("molten_emerald",
+            () -> new ForgeFlowingFluid.Source(ModFluids.EMERALD_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_EMERALD_FLOWING = FLUIDS.register("molten_emerald_flowing",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.EMERALD_PROPERTIES));
+    public static final ForgeFlowingFluid.Properties EMERALD_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_EMERALD_FLUID_TYPE, MOLTEN_EMERALD_SOURCE, MOLTEN_EMERALD_FLOWING)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_EMERALD_BLOCK)
+            .bucket(MiscItems.MOLTEN_EMERALD_BUCKET);
+
+    public static final RegistryObject<FlowingFluid> MOLTEN_REDSTONE_SOURCE = FLUIDS.register("molten_redstone",
+            () -> new ForgeFlowingFluid.Source(ModFluids.REDSTONE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_REDSTONE_FLOWING = FLUIDS.register("molten_redstone_flowing",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.REDSTONE_PROPERTIES));
+    public static final ForgeFlowingFluid.Properties REDSTONE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_REDSTONE_FLUID_TYPE, MOLTEN_REDSTONE_SOURCE, MOLTEN_REDSTONE_FLOWING)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_REDSTONE_BLOCK)
+            .bucket(MiscItems.MOLTEN_REDSTONE_BUCKET);
+
+    public static final RegistryObject<FlowingFluid> MOLTEN_LAPIS_SOURCE = FLUIDS.register("molten_lapis",
+            () -> new ForgeFlowingFluid.Source(ModFluids.LAPIS_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_LAPIS_FLOWING = FLUIDS.register("molten_lapis_flowing",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.LAPIS_PROPERTIES));
+    public static final ForgeFlowingFluid.Properties LAPIS_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_LAPIS_FLUID_TYPE, MOLTEN_LAPIS_SOURCE, MOLTEN_LAPIS_FLOWING)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_LAPIS_BLOCK)
+            .bucket(MiscItems.MOLTEN_LAPIS_BUCKET);
+
+    public static final RegistryObject<FlowingFluid> MOLTEN_ANCIENT_DEBRIS_SOURCE = FLUIDS.register("molten_ancient_debris",
+            () -> new ForgeFlowingFluid.Source(ModFluids.ANCIENT_DEBRIS_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_ANCIENT_DEBRIS_FLOWING = FLUIDS.register("molten_ancient_debris_flowing",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.ANCIENT_DEBRIS_PROPERTIES));
+    public static final ForgeFlowingFluid.Properties ANCIENT_DEBRIS_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_ANCIENT_DEBRIS_FLUID_TYPE, MOLTEN_ANCIENT_DEBRIS_SOURCE, MOLTEN_ANCIENT_DEBRIS_FLOWING)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_ANCIENT_DEBRIS_BLOCK)
+            .bucket(MiscItems.MOLTEN_ANCIENT_DEBRIS_BUCKET);
+
+    public static final RegistryObject<FlowingFluid> MOLTEN_NETHERITE_SOURCE = FLUIDS.register("molten_netherite",
+            () -> new ForgeFlowingFluid.Source(ModFluids.NETHERITE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> MOLTEN_NETHERITE_FLOWING = FLUIDS.register("molten_netherite_flowing",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.NETHERITE_PROPERTIES));
+    public static final ForgeFlowingFluid.Properties NETHERITE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_NETHERITE_FLUID_TYPE, MOLTEN_NETHERITE_SOURCE, MOLTEN_NETHERITE_FLOWING)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_NETHERITE_BLOCK)
+            .bucket(MiscItems.MOLTEN_NETHERITE_BUCKET);
+
     public static void register(IEventBus eventBus) {
         FLUIDS.register(eventBus);
     }

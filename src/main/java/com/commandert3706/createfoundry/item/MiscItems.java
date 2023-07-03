@@ -45,6 +45,21 @@ public class MiscItems {
     public static final RegistryObject<Item> MOLTEN_BRASS_BUCKET = ITEMS.register("molten_brass_bucket",
             () -> new BucketItem(ModFluids.MOLTEN_BRASS_SOURCE, BUCKET_PROPERTIES));
 
+    public static final RegistryObject<Item> MOLTEN_EMERALD_BUCKET = ITEMS.register("molten_emerald_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_EMERALD_SOURCE, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_LAPIS_BUCKET = ITEMS.register("molten_lapis_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_LAPIS_SOURCE, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_REDSTONE_BUCKET = ITEMS.register("molten_redstone_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_REDSTONE_SOURCE, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_ANCIENT_DEBRIS_BUCKET = ITEMS.register("molten_ancient_debris_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_ANCIENT_DEBRIS_SOURCE, BUCKET_PROPERTIES));
+
+    public static final RegistryObject<Item> MOLTEN_NETHERITE_BUCKET = ITEMS.register("molten_netherite_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_NETHERITE_SOURCE, BUCKET_PROPERTIES));
+
 
     public static final RegistryObject<Item> INGOT_MOULD_BLUEPRINT = ITEMS.register("ingot_mould_blueprint",
             () -> new Item(DEFAULT_PROPERTIES));
