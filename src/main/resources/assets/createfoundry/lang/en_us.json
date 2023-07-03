@@ -48,19 +48,18 @@
   "fluid.createfoundry.molten_netherite": "Molten Netherite",
   "fluid.createfoundry.molten_brass": "Molten Brass",
 
-  "block.createfoundry.molten_copper": "Molten Copper",
-  "block.createfoundry.molten_iron": "Molten Iron",
-  "block.createfoundry.molten_gold": "Molten Gold",
-  "block.createfoundry.molten_carbon": "Molten Carbon",
-  "block.createfoundry.molten_diamond": "Molten Diamond",
-  "block.createfoundry.molten_zinc": "Molten Zinc",
-  "block.createfoundry.molten_emerald": "Molten Emerald",
-  "block.createfoundry.molten_lapis": "Molten Lapis",
-  "block.createfoundry.molten_redstone": "Molten Redstone",
-  "block.createfoundry.molten_ancient_debris": "Molten Ancient Debris",
-  "block.createfoundry.molten_netherite": "Molten Netherite",
-  "block.createfoundry.molten_brass": "Molten Brass",
-
+  "fluid_type.createfoundry.molten_copper": "Molten Copper",
+  "fluid_type.createfoundry.molten_iron": "Molten Iron",
+  "fluid_type.createfoundry.molten_gold": "Molten Gold",
+  "fluid_type.createfoundry.molten_carbon": "Molten Carbon",
+  "fluid_type.createfoundry.molten_diamond": "Molten Diamond",
+  "fluid_type.createfoundry.molten_zinc": "Molten Zinc",
+  "fluid_type.createfoundry.molten_brass": "Molten Brass",
+  "fluid_type.createfoundry.molten_emerald": "Molten Emerald",
+  "fluid_type.createfoundry.molten_lapis": "Molten Lapis",
+  "fluid_type.createfoundry.molten_redstone": "Molten Redstone",
+  "fluid_type.createfoundry.molten_ancient_debris": "Molten Ancient Debris",
+  "fluid_type.createfoundry.molten_netherite": "Molten Netherite",
 
   "itemGroup.createfoundry.create_foundry": "Create Foundry"
 }
