@@ -49,6 +49,34 @@ public class PressingRecipeGenerator extends ProcessingRecipeGen {
                         .output(Items.CHARCOAL)
                         .output(EmptyMouldItems.EMPTY_COKE_MOULD)
         ));
+
+        pressingGeneratedRecipeList.add(create(
+                new Identifier("createfoundry", "lapis_from_mould"), b -> b
+                        .require(Registry.ITEM.get(new Identifier("createfoundry", "lapis_gem_mould")))
+                        .output(Items.LAPIS_LAZULI)
+                        .output(EmptyMouldItems.EMPTY_GEM_MOULD)
+        ));
+
+        pressingGeneratedRecipeList.add(create(
+                new Identifier("createfoundry", "redstone_from_mould"), b -> b
+                        .require(Registry.ITEM.get(new Identifier("createfoundry", "redstone_gem_mould")))
+                        .output(Items.REDSTONE)
+                        .output(EmptyMouldItems.EMPTY_GEM_MOULD)
+        ));
+
+        pressingGeneratedRecipeList.add(create(
+                new Identifier("createfoundry", "netherite_scrap_from_mould"), b -> b
+                        .require(Registry.ITEM.get(new Identifier("createfoundry", "ancient_debris_gem_mould")))
+                        .output(Items.NETHERITE_SCRAP)
+                        .output(EmptyMouldItems.EMPTY_GEM_MOULD)
+        ));
+
+        pressingGeneratedRecipeList.add(create(
+                new Identifier("createfoundry", "netherite_ingot_from_mould"), b -> b
+                        .require(Registry.ITEM.get(new Identifier("createfoundry", "netherite_ingot_mould")))
+                        .output(Items.NETHERITE_INGOT)
+                        .output(EmptyMouldItems.EMPTY_INGOT_MOULD)
+        ));
     }
 
     public PressingRecipeGenerator(FabricDataGenerator generator) {

@@ -36,19 +36,23 @@ public class MixingRecipeGenerator extends ProcessingRecipeGen {
 
         for (String material : MaterialLists.MINECRAFT_GEM_MATERIALS_STANDARD_LOOT) {
             mixingGeneratedRecipeList.add(create(new Identifier("createfoundry", "melting/unit/" + material + "_from_gem"),
-                    b -> b.require(Registry.ITEM.get(new Identifier("minecraft", material + "_gem")))
+                    b -> b.require(Registry.ITEM.get(new Identifier("minecraft", material)))
                             .output(Registry.FLUID.get(new Identifier("createfoundry", "molten_" + material)),
                                     MaterialLists.FluidConstants.INGOT_FLUID_AMOUNT)
                             .requiresHeat(HeatCondition.SUPERHEATED)));
         }
 
-        for (String material : MaterialLists.MINECRAFT_GEM_MATERIALS_EXTRA_LOOT) {
-            mixingGeneratedRecipeList.add(create(new Identifier("createfoundry", "melting/unit/" + material + "_from_gem"),
-                    b -> b.require(Registry.ITEM.get(new Identifier("minecraft", material + "_gem")))
-                            .output(Registry.FLUID.get(new Identifier("createfoundry", "molten_" + material)),
-                                    MaterialLists.FluidConstants.INGOT_FLUID_AMOUNT)
-                            .requiresHeat(HeatCondition.SUPERHEATED)));
-        }
+        mixingGeneratedRecipeList.add(create(new Identifier("createfoundry", "melting/unit/lapis_from_gem"),
+                b -> b.require(Items.LAPIS_LAZULI)
+                        .output(Registry.FLUID.get(new Identifier("createfoundry", "molten_lapis")),
+                                MaterialLists.FluidConstants.INGOT_FLUID_AMOUNT)
+                        .requiresHeat(HeatCondition.SUPERHEATED)));
+
+        mixingGeneratedRecipeList.add(create(new Identifier("createfoundry", "melting/unit/redstone_from_gem"),
+                b -> b.require(Items.REDSTONE)
+                        .output(Registry.FLUID.get(new Identifier("createfoundry", "molten_redstone")),
+                                MaterialLists.FluidConstants.INGOT_FLUID_AMOUNT)
+                        .requiresHeat(HeatCondition.SUPERHEATED)));
 
         mixingGeneratedRecipeList.add(create(new Identifier("createfoundry", "melting/unit/carbon_from_coal"),
                 b -> b.require(Items.COAL)
