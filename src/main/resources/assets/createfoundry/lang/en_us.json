@@ -61,5 +61,18 @@
   "fluid_type.createfoundry.molten_ancient_debris": "Molten Ancient Debris",
   "fluid_type.createfoundry.molten_netherite": "Molten Netherite",
 
+  "block.createfoundry.molten_copper": "Molten Copper",
+  "block.createfoundry.molten_iron": "Molten Iron",
+  "block.createfoundry.molten_gold": "Molten Gold",
+  "block.createfoundry.molten_carbon": "Molten Carbon",
+  "block.createfoundry.molten_diamond": "Molten Diamond",
+  "block.createfoundry.molten_zinc": "Molten Zinc",
+  "block.createfoundry.molten_emerald": "Molten Emerald",
+  "block.createfoundry.molten_lapis": "Molten Lapis",
+  "block.createfoundry.molten_redstone": "Molten Redstone",
+  "block.createfoundry.molten_ancient_debris": "Molten Ancient Debris",
+  "block.createfoundry.molten_netherite": "Molten Netherite",
+  "block.createfoundry.molten_brass": "Molten Brass",
+
   "itemGroup.createfoundry.create_foundry": "Create Foundry"
 }
